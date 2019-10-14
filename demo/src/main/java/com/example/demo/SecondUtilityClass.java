@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class SecondUtilityClass {
+	
 	@Autowired
-	SampleComponent sampleC;
+	SampleComponent sampleComponent;
 }
