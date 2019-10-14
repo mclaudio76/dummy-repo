@@ -299,3 +299,6 @@ java.lang.OutOfMemoryError: Requested array size exceeds VM limit
 
 !ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-10-14 20:54:45.239
 !MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-10-14 20:55:47.054
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
