@@ -132,3 +132,115 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-10-13 21:05:22.572
 !MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-10-13 21:10:11.087
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-13 21:11:33.003
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LfKFNyMz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-13 21:11:33.003
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LfKFNyMz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-13 21:11:33.003
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-13 21:11:33.003
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LfKFNyMz => OK
+!SESSION 2019-10-14 20:20:19.840 -----------------------------------------------
+eclipse.buildId=4.4.0.201909171436-RELEASE
+java.version=11.0.3
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2019-10-14 20:20:26.789
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-10-14 20:20:26.790
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@79c2bc34,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77925f76,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:33.242
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:33.242
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3cc9bde9[org.springframework.tooling.boot.ls:1.11.0.201909171347(id=1302)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:33.243
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:33.375
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:37.086
+!MESSAGE Boot LS startup time from start to initialized: 3807ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:37.143
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.drZqwqXrisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:37.147
+!MESSAGE subscribing to classpath changes: sts4.classpath.drZqwqXr isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:37.148
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:37.150
+!MESSAGE subsribers = {sts4.classpath.drZqwqXr=Send Classpath Notifications(74)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:37.151
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:37.151
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:37.152
+!MESSAGE Preparing classpath changed notification demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:37.152
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:37.154
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:37.154
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.drZqwqXr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:37.159
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:37.160
+!MESSAGE buffering callback sts4.classpath.drZqwqXr demo false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:37.160
+!MESSAGE executing callback sts4.classpath.drZqwqXr 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-14 20:20:37.213
+!MESSAGE executing callback sts4.classpath.drZqwqXr SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2019-10-14 20:20:41.214
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-10-14 20:20:52.325
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-10-14 20:21:00.653
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-10-14 20:21:25.510
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
